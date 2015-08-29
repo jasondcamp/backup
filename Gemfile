@@ -20,22 +20,22 @@ source 'https://rubygems.org'
 
 # Specify version requirements to control `bundle update` if needed.
 group :production do
-  gem 'thor'
-  gem 'open4'
+#  gem 'thor'
+#  gem 'open4'
   gem 'fog'
   # gem 'excon' - use version specified by fog
   gem 'unf' # for fog/AWS
-  gem 'dropbox-sdk', '= 1.5.1' # patched
-  gem 'net-ssh'
-  gem 'net-scp'
-  gem 'net-sftp'
+#  gem 'dropbox-sdk', '= 1.5.1' # patched
+#  gem 'net-ssh'
+#  gem 'net-scp'
+#  gem 'net-sftp'
   gem 'mail', '= 2.5.4' # patched
-  gem 'pagerduty'
-  gem 'twitter'
-  gem 'hipchat'
-  gem 'flowdock'
+#  gem 'pagerduty'
+#  gem 'twitter'
+#  gem 'hipchat'
+#  gem 'flowdock'
   gem 'json'
-  gem 'dogapi'
+#  gem 'dogapi'
   gem 'aws-ses'
 end
 
